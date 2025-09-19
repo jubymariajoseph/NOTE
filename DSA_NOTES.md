@@ -31,5 +31,8 @@ Technique where data is collected and stored over a period of time. Processed as
 * different from real time as data is analyzed  only when the condition of batches are satisfied ( not like real time data where the data is processed instantly)
 * The pipeline process the entire batch at once
 * processed data is stored in a database, file or to other sysytem for future use
+* Latency in batch processing refers to the time delay between when data is collected and when it is actually processed and results are available. Latency is high. Not suitable for immediate use.
+* Handles large volume effectively
+* data is processed in groups and not individually
 * 
 
