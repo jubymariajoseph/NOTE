@@ -27,5 +27,9 @@
 # Batch Processing
 Technique where data is collected and stored over a period of time. Processed as a single unit or batch instead of being processed immediately. 
 * Data is collected from various sources
+* Data is formed into batches - batches satisfying certain criteria (data till midnight/ 10000 data )
+* different from real time as data is analyzed  only when the condition of batches are satisfied ( not like real time data where the data is processed instantly)
+* The pipeline process the entire batch at once
+* processed data is stored in a database, file or to other sysytem for future use
 * 
 
