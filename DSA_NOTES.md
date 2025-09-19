@@ -15,3 +15,14 @@
 * real time analysis is challenging
 * Banking, healthcare and insurance where strict data rules compliance
 # ELT
+* Designed for modern cloud based solutions where scalability and flexibility are key.
+* designed for cloud warehouses like Snowflake, BigQuery, Redshift
+* Handles structured, semistructured and unstructured data
+* leverages scalable comute resources to process large dataset quickly
+* supports real time or near real time analysis - raw data is uploaded
+* flexible allowing changes based on business needs(for future analysis)
+* retains original data best for audits, exploration and AI/ML Application(Data exploration)
+* Lower cost with clod scalability
+* e-commerce, social media and IoT platforms
+
+
