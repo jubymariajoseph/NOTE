@@ -24,5 +24,8 @@
 * retains original data best for audits, exploration and AI/ML Application(Data exploration)
 * Lower cost with clod scalability
 * e-commerce, social media and IoT platforms
-
+# Batch Processing
+Technique where data is collected and stored over a period of time. Processed as a single unit or batch instead of being processed immediately. 
+* Data is collected from various sources
+* 
 
