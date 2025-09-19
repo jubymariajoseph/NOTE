@@ -34,5 +34,6 @@ Technique where data is collected and stored over a period of time. Processed as
 * Latency in batch processing refers to the time delay between when data is collected and when it is actually processed and results are available. Latency is high. Not suitable for immediate use.
 * Handles large volume effectively
 * data is processed in groups and not individually
-* 
+* Fault tolerance in batch processing refers to the system’s ability to continue processing correctly even if errors, failures, or interruptions occur during the execution of batch jobs. Easier to retry uses checkpoints and all
+* cheaper then real time processing for large volumes
 
