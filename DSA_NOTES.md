@@ -36,4 +36,26 @@ Technique where data is collected and stored over a period of time. Processed as
 * data is processed in groups and not individually
 * Fault tolerance in batch processing refers to the system’s ability to continue processing correctly even if errors, failures, or interruptions occur during the execution of batch jobs. Easier to retry uses checkpoints and all
 * cheaper then real time processing for large volumes
-
+# Advantages of Batch Processsing
+* Efficiency at scale : Proscessing large volumes of data all at once, which is often more resource efficient than handling each task individually
+* Automated Scheduling : ideal for task that don't require real time processing - run overnight or off peak hours
+* Error Handling and Retry Logic : Easier to apply consistent error handing, rollback mechanisms or validation acrosss batches, which improves reliability
+* Reduced manual intervention : once automated doesn't require human intervention
+* Resource optimization : when data is runned in bulk often large amount ofmemory is required
+* Consistency and standadization : ideal for appliying the same logic throughout the dataset
+# Limitations of Batch Processing 
+ * Delayed results: not apt for time sensitive analysis( fraud detection)- scheduled at time intervals
+ * Resource spikes : large bulks require more sources therefore affect the performance at peak times
+ * Complex debugging : if error occurs finding it through a bulk job is more difficult than real time processing
+ * Limited Flexibility : once a batch starts we have to wait till the next batch to make changes
+ * data staleness : the insights are freash as the last batch run bad news if you need current data to make decisions
+# Batch processing architecture
+Data sources-----Data injestion(scheduled jobs)----Storage level(HDF5,S3,ETC)-----Batch processing(spark, hadoop)---processsed data(DW, DBs, Reports)---BI Tools\reports
+#  Common Batch Processsing tools
+* Apache Spark
+* Apache Hadoop
+* Talend
+* AWS Glue
+* Google Dataflow(batch mode)
+* Azure Data Factory
+ 
