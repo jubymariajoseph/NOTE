@@ -58,4 +58,10 @@ Data sources-----Data injestion(scheduled jobs)----Storage level(HDF5,S3,ETC)---
 * AWS Glue
 * Google Dataflow(batch mode)
 * Azure Data Factory
+#  Stream processing
+Continuous and real-time processing of data asits flows in. No delay between data arrival and processing. Latency is low, designed for ongoing and unbounded streams od data, small time windows, use cases - alerting, monitoring.fault tolerance - managed via checkpoints and windowing and more compute intensive-higher price.
+Data ingestion : data is continuosly ingested.
+real-time processing : each event is processed as it arrives
+output delivery : results are pushed immediately to databases or dashboards.
+
  
