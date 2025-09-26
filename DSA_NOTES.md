@@ -63,5 +63,21 @@ Continuous and real-time processing of data asits flows in. No delay between dat
 Data ingestion : data is continuosly ingested.
 real-time processing : each event is processed as it arrives
 output delivery : results are pushed immediately to databases or dashboards.
+#  Examples
+* fraud detection in banking : monitors every transaction
+* Real time ride matching(uber and ola) : location of drivers and riders are updated
+* real time analytics for E-commerce : track live user behaviours
+* social media feeds and notification : provides real time messaages and notification
+* Log monitoring and alerting: monitor server logs and application errors in real time
+* Online gaming leaderboards : update scores and ranking live as users play
+* stock market data and alerts : provide stock prices or transcation for live dashboards
+* video live streaming analytics : update the number of viewers
+* Smart traffic system : monitor vehicle flows and agjust the traffic
+#  Advantages
+* data handled as a comntinuous and unbounded flow
+* processing is real time and insights are delivered instantly
+* Essential for instant decision making (real time recomendations)
+* demands hig availability, always on infrastructure
+* errors and anomalies detected as they occur, enabling immediate actions
 
  
