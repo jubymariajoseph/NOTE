@@ -94,7 +94,9 @@ process of using domain knowledge to extract and transform raw data into feature
 * Simplifies the model : reduces the complexity of model by dropping irrelevant and redundant features, leading tofaster training amnf inferance timing.
 * Enhance interpretability : that are meaningfull and well-constructed can make predictions more interpretable.
 ##  Real world example of feature engineering
-* E-commersce recomendation system
+* E-commerce recomendation system : analyze user behaviours to improve.
+* Credit Scoring : can create features from transcation history to analyze creditworthiness and help in credit risk analysis.
+* Healthcare predictive models : age, gender and medical history of a person can be nalyzed to know  the likelihood of the person to be affected with disease. 
 #  Filter Methods (Feature selection)
 Filter method select features based on statistical measures and do not involve any machine learning algorithms.
 ##  Common techniques
@@ -117,8 +119,7 @@ Ivolves transforming the existing feature to new feature that better shows the s
 * Principal component analysis(PCA) : reduces the dimensionality of the data by transforming it into a set of uncorrelated variables called principal components.
 * Independent component analysis : separates a multivariable signal into additive, independent components.
 * Feature construction : creating new features based on existing ones such that polynomial features , interaction terms etc
-* Discretization/Binning : converts continuous bins into categorical bins
-*   
+* Discretization/Binning : converts continuous bins into categorical bins  
   
 
  
