@@ -90,7 +90,11 @@ process of using domain knowledge to extract and transform raw data into feature
 * Engineering : process of refining, transforming and creating features to better represent the underlying pattern.
 ## Importance of feature engineering
 * Improves model accuracy : reveals hiddden pattern in data and gives accurate prediction.
-* 
+* Reduces overfitting : by selecting and transforming features that generalize well across different dataset.
+* Simplifies the model : reduces the complexity of model by dropping irrelevant and redundant features, leading tofaster training amnf inferance timing.
+* Enhance interpretability : that are meaningfull and well-constructed can make predictions more interpretable.
+##  Real world example of feature engineering
+* E-commersce recomendation system
 #  Filter Methods (Feature selection)
 Filter method select features based on statistical measures and do not involve any machine learning algorithms.
 ##  Common techniques
