@@ -79,5 +79,27 @@ output delivery : results are pushed immediately to databases or dashboards.
 * Essential for instant decision making (real time recomendations)
 * demands hig availability, always on infrastructure
 * errors and anomalies detected as they occur, enabling immediate actions
+#  Feature engineering, Feature sllection and Feature extraction
+Feature engineering : broad process that includes creating new features,transformingexisting ones and selecting the most relevant ones. Enhance the dataset for better model prediction. methods like selection, extraction, transformation and cretion of features.
+Feature Selection : a specific technique within feature engineering focused on selecting the most relevant features from the dataset. simplify the model and improve performance by reducing the number of features.Filter, wrappee and embedded are the methods.
+Feature extraction : aimed at tranforming existing features into new and more informative ones. Create new features that better capture the underlying data patterns or reduce dimensionality. PCA, ICA and Polynomial features are the method
+#  Filter Methods
+Filter method select features based on statistical measures and do not involve any machine learning algorithms.
+##  Common techniques
+* Correlation Coefficient : identify the linear relationship between features and target variables. Calculate the pearson correlation cofficient for continuous variables.
+* Chi-Square test : teat the independent relation between categorical features and the target variable. Suitable for categorical data.
+* ANOVA (Analysis of Vriance) : Compare the means of different groups and determine if the mean of a feature differs significantly from others. Suitable for continuous input and categorical output.
+#  Advanced Feature Selection Technique
+##  Supervised  Technique
+* Filter-based approach : Information gain, chi-square test, Fisher's score, missing value ratio
+* Wrapper-based approach : forward selection, backward selection, exhaustic feature selection, recurrcive feature elimination
+* Embedded approach : regularization, random forest importance
+##  Unsupervised techniques 
+* PCA
+* ICA
+* NMF
+* t-SNE
+* Autoencoder
+  
 
  
