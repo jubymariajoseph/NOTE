@@ -83,7 +83,15 @@ output delivery : results are pushed immediately to databases or dashboards.
 Feature engineering : broad process that includes creating new features,transformingexisting ones and selecting the most relevant ones. Enhance the dataset for better model prediction. methods like selection, extraction, transformation and cretion of features.
 Feature Selection : a specific technique within feature engineering focused on selecting the most relevant features from the dataset. simplify the model and improve performance by reducing the number of features.Filter, wrappee and embedded are the methods.
 Feature extraction : aimed at tranforming existing features into new and more informative ones. Create new features that better capture the underlying data patterns or reduce dimensionality. PCA, ICA and Polynomial features are the method
-#  Filter Methods
+#  Feature engineering
+process of using domain knowledge to extract and transform raw data into features that make machine learning algorithms work efficiently. Involves selectingor creating new features from the existing data to improve the performance.
+## key concepts
+* feature : a variable or attribute in the dataset that the model will make use for predictions.
+* Engineering : process of refining, transforming and creating features to better represent the underlying pattern.
+## Importance of feature engineering
+* Improves model accuracy : reveals hiddden pattern in data and gives accurate prediction.
+* 
+#  Filter Methods (Feature selection)
 Filter method select features based on statistical measures and do not involve any machine learning algorithms.
 ##  Common techniques
 * Correlation Coefficient : identify the linear relationship between features and target variables. Calculate the pearson correlation cofficient for continuous variables.
@@ -100,6 +108,13 @@ Filter method select features based on statistical measures and do not involve a
 * NMF
 * t-SNE
 * Autoencoder
+#  Techniques for feature extraction
+Ivolves transforming the existing feature to new feature that better shows the structure of data. This helps in improving the models performance by better understanding the non-linear relationships, reducing dimensionlityor representing data in a way that is more suitable for the machine learning algorithm.
+* Principal component analysis(PCA) : reduces the dimensionality of the data by transforming it into a set of uncorrelated variables called principal components.
+* Independent component analysis : separates a multivariable signal into additive, independent components.
+* Feature construction : creating new features based on existing ones such that polynomial features , interaction terms etc
+* Discretization/Binning : converts continuous bins into categorical bins
+*   
   
 
  
