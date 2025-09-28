@@ -119,7 +119,21 @@ Ivolves transforming the existing feature to new feature that better shows the s
 * Principal component analysis(PCA) : reduces the dimensionality of the data by transforming it into a set of uncorrelated variables called principal components.
 * Independent component analysis : separates a multivariable signal into additive, independent components.
 * Feature construction : creating new features based on existing ones such that polynomial features , interaction terms etc
-* Discretization/Binning : converts continuous bins into categorical bins  
-  
+* Discretization/Binning : converts continuous bins into categorical bins
+#  Visualization Techniques
+* Bar plots : ideal for showing the frequency and proportion of each category in discrete data. compare  the count of different categories. eg the distribution of product types sold in a store.
+* Count Plots : count of occurance of each category directly.eg count of male and female participants in an event.
+* Tools : matplotlib - use plt.bar() for bar plots,seaborn - sns.barplot() and sns.countplot()
+#  Data types 
+* Continuous features : features that can take any value within a range like measurements, quantitiy etc. eg : annual income, age, price of product.This requires scaling or normalization for effective prediction.
+* Discrete Features : take limited set of distinct values representing categories or count. eg: gender, customer satisfaction.Requires encoding techniques like one_hot code encoding, label encoding etc
+## Continuous data visualization technique
+* Histogram : It groups the data into bins and shows the frequency of data points within each bin. eg distribution of annual income.
+* Density plots : provide smoothed version of distribution making it easier to identify patterns. eg Density of heights in a population.
+* Tools : plt.hist(), plt.plot()/plt,fill_between()[density plots]
+## Continuous data transformation
+* Normalization : Scale the data so they fit in a fixed range(0,1)
+* Scaling : standardizes features by removing the mean and scaling to unit variance.
+* log transformation : reduces skewness in data, particularly with long tail. It compresses the range of values and helps stabilize variance.
 
  
