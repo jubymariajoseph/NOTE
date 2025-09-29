@@ -137,7 +137,7 @@ Ivolves transforming the existing feature to new feature that better shows the s
 * log transformation : reduces skewness in data, particularly with long tail. It compresses the range of values and helps stabilize variance.
 # Characteristics of Data Warehousing 
 * Subject-Oriented → Focused on business subjects (sales, customers, inventory).
-  * Integrated → Data comes from multiple sources, standardized. 
+* Integrated → Data comes from multiple sources, standardized. 
 * Time-Variant → Stores historical data for trend analysis. 
 * Non-Volatile → Once entered, data is stable and rarely changes.
 # Components of Warehouse 
