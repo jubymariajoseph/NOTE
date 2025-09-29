@@ -136,9 +136,10 @@ Ivolves transforming the existing feature to new feature that better shows the s
 * Scaling : standardizes features by removing the mean and scaling to unit variance.
 * log transformation : reduces skewness in data, particularly with long tail. It compresses the range of values and helps stabilize variance.
 # Characteristics of Data Warehousing 
-*Subject-Oriented → Focused on business subjects (sales, customers, inventory). *Integrated → Data comes from multiple sources, standardized. 
-*Time-Variant → Stores historical data for trend analysis. 
-*Non-Volatile → Once entered, data is stable and rarely changes.
+* Subject-Oriented → Focused on business subjects (sales, customers, inventory).
+  * Integrated → Data comes from multiple sources, standardized. 
+* Time-Variant → Stores historical data for trend analysis. 
+* Non-Volatile → Once entered, data is stable and rarely changes.
 # Components of Warehouse 
 Data Sources: Operational systems, databases, external feeds. 
 ETL (Extract, Transform, Load): Cleans & loads data.
@@ -147,10 +148,20 @@ Metadata: Describes data’s structure, source, usage.
 Data Marts:Department-specific subsets. 
 OLAP Tools: Multi-dimensional analysis. 
 End-User Tools: Dashboards, BI & reporting tools.
-# Example of Daya Warehousing 
+# Example of Data Warehousing 
 ## E-commerceFlipkart 
 Data Gathering: Orders, returns, payments, user clicks, delivery updates. 
 Schema: Combines source data into a structured star schema for analysis. Cleansing: Standardizes customer names, locations, and product categories.
 Updates: Near real-time or scheduled loads for fresh insights.
 Summarization: Bestsellers by category, regional demand trends, logistics performance
  
+# OLTP (Online Transaction Processing)
+## Purpose 
+Designed for day-to-day operations (e.g., banking transactions, retail sales, reservations).
+## Characteristics
+Focus: Fast, frequent INSERT, UPDATE, DELETE operations. 
+Data Model: Highly normalized (to reduce redundancy and ensure data integrity). Users: Thousands of concurrent users (e.g., cashiers, online shoppers). 
+Data: Current, detailed operational data.
+## Example 
+ATM withdrawals, online order placement, airline ticket booking.
+# OLAP
