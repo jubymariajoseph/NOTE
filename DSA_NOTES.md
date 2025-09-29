@@ -164,4 +164,20 @@ Data Model: Highly normalized (to reduce redundancy and ensure data integrity). 
 Data: Current, detailed operational data.
 ## Example 
 ATM withdrawals, online order placement, airline ticket booking.
-# OLAP
+# OLAP (Online Analytical Processing)
+# Purpose 
+Supports decision-making and analysis (not day-to-day transactions).
+# Characteristics 
+* Focus: Complex SELECT queries and aggregations.
+*  Data Model: Highly denormalized (optimized for query performance).
+*  Users: Fewer, but highly analytical users (e.g., business analysts, data scientists).
+*  Data: Historical, summarized, multi-dimensional data.
+## Example
+Sales trend analysis, customer behavior reports, financial forecasting.
+# OLAP Operations
+* Roll-up : Aggregates data by climbing up a hierarchy or reducing dimensions. Example: Summarizing sales data from kitchen sales and furniture into home appliances.
+* Drill Down: Opposite of roll-up; it increases detail by descending a hierarchy or adding dimensions. Example: Breaking down yearly sales into quarterly or monthly figures.
+* Slice: Selects a single dimension from the cube, creating a sub-cube. Example: Viewing sales data for Q1 across all regions and products.
+* Dice : Selects two or more dimensions to create a more specific sub-cube. Example: Filtering data in Q1 and Q2
+* Pivot ( Rotate) : Reorients the data view to gain new perspectives. Example: Switching rows and columns to compare product sales across regions.
+
